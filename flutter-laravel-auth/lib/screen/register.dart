@@ -48,9 +48,9 @@ class _RegisterState extends State<Register> {
   @override
   void initState() {
     super.initState();
-    _email.text = 'who@gmail.com';
-    _name.text = 'devo';
-    _password.text = 'passme';
+    _email.text = '';
+    _name.text = '';
+    _password.text = '';
   }
 
   @override

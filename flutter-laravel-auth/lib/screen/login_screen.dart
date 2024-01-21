@@ -26,8 +26,8 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   void initState() {
     super.initState();
-    _email.text = 'larroukossnail@gmail.com';
-    _password.text = 'password';
+    _email.text = '';
+    _password.text = '';
   }
 
   Future submit() async {
